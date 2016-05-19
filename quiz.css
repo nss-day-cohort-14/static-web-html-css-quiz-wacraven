@@ -39,7 +39,7 @@ section > * {
 	text-align: center;
 }
 
-.productInfo1 > img {
+.productInfoDesc > img {
 	margin: auto;
 	width: 80%;
 	padding: 10px;
@@ -51,11 +51,11 @@ section > * {
 	padding: 10px;
 }
 
-.productInfo2 > p {
+.productInfoSize > footer > p {
 	margin-left: 10px;
 }
 
-.productInfo3 > p {
+.productInfoPricing > p {
 	margin-left: 10px;
 }
 
