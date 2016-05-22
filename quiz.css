@@ -1,0 +1,72 @@
+/******BODY STYLING*******/
+
+#container * {
+	font-family: arial, sans-serif;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 24px;
+
+}
+
+h2 {
+	font-weight: 900;
+	font-size: 20px;
+}
+
+#container {
+	width: 85%;
+	margin: auto;
+}
+
+/******CARD STYLING*******/
+
+.productCard {
+	border: 1px solid lightblue;
+	width: 30%;
+	float: left;
+	margin: 1%;
+	box-sizing: border-box;
+}
+
+section > * {
+	padding: 5px;
+}
+
+.productHeader {
+	border-bottom: 1px dotted lightgray;
+	text-align: center;
+}
+
+.productInfoDesc > img {
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+	display: block;
+}
+
+.productDesc {
+	text-align: justify;
+	padding: 10px;
+}
+
+.productInfoSize > footer > p {
+	margin-left: 10px;
+}
+
+.productInfoPricing > p {
+	margin-left: 10px;
+}
+
+.productAvail {
+	width: 100%;
+	background-color: darkgray;
+	color: yellow;
+	padding: 3px 0;
+	margin: 5px 0;
+}
+
+.productValidUntil {
+	font-size: 10px;
+}
